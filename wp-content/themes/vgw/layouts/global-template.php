@@ -15,10 +15,6 @@ get_header();
 					</div>	
 				<!-- banner hook for contact us -->
 				<?php elseif (!empty(get_field('top-head'))): ?>
-					<div class="container bg_image">
-						<div class="left-banner intro"><?php echo get_field('top-head'); ?></div>
-						<div><img src="<?php echo get_field('top-img'); ?>" class="poker"></div>
-					</div>
 				<!-- Board of Directors -->
 				<?php elseif (!empty(get_field('board_of_directors'))): ?>
 					<div class="container">
@@ -155,8 +151,7 @@ get_header();
 								<h4 class="location"><i class="fa fa-map-marker fa-lg" aria-hidden="true">
 									</i>&nbsp; Perth
 								</h4>
-								<p>VGW @ Flux
-								Level 8, 191 St Georges Tce
+								<p>Level 8, 191 St Georges Tce
 								Perth
 								WA 6000
 								Australia</p>
@@ -176,17 +171,16 @@ get_header();
 								<h4 class="location"><i class="fa fa-map-marker fa-lg" aria-hidden="true">
 									</i>&nbsp; Manila
 								</h4>
-								<p>VGW @ A Space
-									110 Legapazi Street
-									Makati, Manila 1229
-									Philippines</p>
+								<p>110 Legazpi St.
+								Makati City
+								Philippines</p>
 							</div>
 							<div class="row-3">
 								<h4 class="location"><i class="fa fa-map-marker fa-lg" aria-hidden="true">
 								</i>&nbsp; Malta
 								</h4>
-								<p>Suite 3, 1st Floor
-								Valetta Buildings
+								<p>Valletta Buildings
+								Fourth Floor, Suite 20
 								South Street
 								Valetta, Malta VLT 1103</p>
 							</div>

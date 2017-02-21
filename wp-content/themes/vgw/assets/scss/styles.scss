@@ -117,11 +117,9 @@ img {
 	@include clearfix;
 	background: #efefef;
 	max-width: 100%;
-	margin-top: 40px;
-	//border-top: 1px solid #FDD400;
 	.contact-section-left {
 		float: left;
-		padding-top: 50px;
+		padding-top: 30px;
 		width: 50%;
 		padding-bottom: 53px;
 		@include media($mobile) {
@@ -145,7 +143,7 @@ img {
 	.contact-section-right {
 		float: right;
 		background: #efefef;
-		padding-top: 50px;
+		padding-top: 30px;
 		width:50%;
 		@include media($mobile) {
 				width: 100%;
@@ -420,7 +418,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 		float: right;
 		width: 60%;
 		text-align: right;
-		@include media($mobile) {
+		@include media($tablet) {
 			display: none;
 		}
 	}
@@ -476,7 +474,8 @@ header {
 	@include pad(10px 80px);
 	ul {
 		li {
-			@include pad(0px 5px);
+			@include pad(0);
+			width: 80px;
 			border-right: 1px solid white;
 		}
 		li:last-child {
@@ -517,10 +516,10 @@ header {
 	margin-bottom: 50px;
 	margin-right: 0;
 	.row-2 {
-		@include span-columns(2);
+		@include span-columns(3);
 		margin-left: 30px;
 		text-align: center;
-		max-width: 120px;
+		max-width: 130px;
 		@include media($mobile) {
 			@include fill-parent;
 			max-width: 250px;
@@ -557,6 +556,10 @@ header {
 	}
 	.your-message {
 		left: 40px;
+
+		.wpcf7-not-valid-tip {
+		margin-left: 45px;
+		}
 	}
 	textarea {
 		width: 72%;
@@ -582,6 +585,9 @@ header {
 		    top: 0;
 		    z-index: 1;
 		}
+		.wpcf7-not-valid-tip {
+		margin-left: 85px;
+		}
 	}
 	.your-email {
 		padding-left: 40px;
@@ -602,6 +608,9 @@ header {
 		    top: 0;
 		    z-index: 1;
 		}
+		.wpcf7-not-valid-tip {
+		margin-left: 85px;
+		}
 	}
 	.your-subject {
 		padding-left: 40px;
@@ -619,6 +628,9 @@ header {
 		    top: 0;
 		    z-index: 1;
 		}
+		.wpcf7-not-valid-tip {
+		margin-left: 85px;
+		}
 	}
 	.wpcf7-submit {
 		margin-left: 80px;
@@ -626,10 +638,6 @@ header {
 
 	.wpcf7-not-valid {
 		border: 1px solid #ff0000;
-	}
-
-	.wpcf7-not-valid-tip {
-		margin-left: 85px;
 	}
 
 	.wpcf7-validation-errors {

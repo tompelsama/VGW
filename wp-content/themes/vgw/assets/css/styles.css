@@ -97,15 +97,14 @@ img .logo {
 
 .contact-section {
   background: #efefef;
-  max-width: 100%;
-  margin-top: 40px; }
+  max-width: 100%; }
   .contact-section::after {
     clear: both;
     content: "";
     display: block; }
   .contact-section .contact-section-left {
     float: left;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 50%;
     padding-bottom: 53px; }
     @media screen and (max-width: 800px) {
@@ -140,7 +139,7 @@ img .logo {
   .contact-section .contact-section-right {
     float: right;
     background: #efefef;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 50%; }
     @media screen and (max-width: 800px) {
       .contact-section .contact-section-right {
@@ -427,7 +426,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
     float: right;
     width: 60%;
     text-align: right; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       #footer #menu-footer-menu {
         display: none; } }
 
@@ -471,7 +470,8 @@ header {
   height: 40px;
   padding: 10px 80px; }
   #footer ul li {
-    padding: 0px 5px;
+    padding: 0;
+    width: 80px;
     border-right: 1px solid white; }
   #footer ul li:last-child {
     border-right: none; }
@@ -513,10 +513,10 @@ header {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 14.70196%;
+    width: 23.23176%;
     margin-left: 30px;
     text-align: center;
-    max-width: 120px; }
+    max-width: 130px; }
     .grup .row-2:last-child {
       margin-right: 0; }
     @media screen and (max-width: 800px) {
@@ -554,6 +554,8 @@ header {
 
 .wpcf7 .your-message {
   left: 40px; }
+  .wpcf7 .your-message .wpcf7-not-valid-tip {
+    margin-left: 45px; }
 
 .wpcf7 textarea {
   width: 72%;
@@ -576,6 +578,8 @@ header {
     left: 53px;
     top: 0;
     z-index: 1; }
+  .wpcf7 .your-name .wpcf7-not-valid-tip {
+    margin-left: 85px; }
 
 .wpcf7 .your-email {
   padding-left: 40px; }
@@ -593,6 +597,8 @@ header {
     left: 53px;
     top: 0;
     z-index: 1; }
+  .wpcf7 .your-email .wpcf7-not-valid-tip {
+    margin-left: 85px; }
 
 .wpcf7 .your-subject {
   padding-left: 40px; }
@@ -606,15 +612,14 @@ header {
     left: 53px;
     top: 0;
     z-index: 1; }
+  .wpcf7 .your-subject .wpcf7-not-valid-tip {
+    margin-left: 85px; }
 
 .wpcf7 .wpcf7-submit {
   margin-left: 80px; }
 
 .wpcf7 .wpcf7-not-valid {
   border: 1px solid #ff0000; }
-
-.wpcf7 .wpcf7-not-valid-tip {
-  margin-left: 85px; }
 
 .wpcf7 .wpcf7-validation-errors {
   background: #ffe2e2;
